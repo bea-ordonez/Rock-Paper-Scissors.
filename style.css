@@ -1,0 +1,50 @@
+* {
+    font-family: 'Arial bold';
+}
+
+body {
+    background-color: rgb(226, 102, 226);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.game-title {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.player-prompt {
+    font-size: 2vw;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-bar {
+    background-color: rgb(224, 169, 226);
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 25vw;
+    font-size: 4.5vw;
+    flex-flow: column;
+    align-items: center;
+}
+
+.right-bar {
+    background-color: rgb(224, 169, 226);
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 25vw;
+    font-size: 4.5vw;
+    flex-flow: column;
+    align-items: center;
+}
