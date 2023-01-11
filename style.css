@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(226, 102, 226);
+    background-color: #4E8397
 }
 
 header {
@@ -28,7 +28,7 @@ main {
 }
 
 .left-bar {
-    background-color: rgb(224, 169, 226);
+    background-color: #00C9A7;
     display: flex;
     justify-content: flex-start;
     height: 100vh;
@@ -39,7 +39,7 @@ main {
 }
 
 .right-bar {
-    background-color: rgb(224, 169, 226);
+    background-color: #00C9A7;
     display: flex;
     justify-content: flex-start;
     height: 100vh;
@@ -47,4 +47,61 @@ main {
     font-size: 4.5vw;
     flex-flow: column;
     align-items: center;
+}
+
+.score-label {
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-change-btn {
+    background-color: #845EC2;
+    color: white;
+}
+
+.game-options-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.classic-box {
+    margin-bottom: 30px;
+    background-color: #845EC2;
+    width: 20vw;
+    padding: 5vh;
+}
+
+.difficult-box {
+    
+    background-color: #845EC2;
+    width: 20vw;
+    padding: 5vh;
+}
+
+.rock,
+.paper,
+.scissors,
+.jazz-hands,
+.love-hands {
+    width: 100px;
+    height: 100px;
+}
+
+.rock,
+.paper,
+.scissors,
+.jazz-hands,
+.love-hands,
+.classic-box,
+.difficult-box,
+.game-change-btn {
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
 }

@@ -5,17 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Rock, Paper, Scissors.</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
     <main>
         <aside class="left-bar">
+            <label class="score-label">
+                <p>Human</p>
+                <p>Wins:</p>
+                <p class="win-counter" id="human-counter">0</p>
+                <button class="game-change-btn hidden">CHANGE GAME?</button>
+            </label>
         </aside>
         <header>
             <p class="game-title">Rock, Paper, Scissors</p>
             <p class="player-prompt">Choose your fighter!</p>
+            <section class="game-options-view">
+                <div class="classic-box">
+                    <p>🪨CLASSIC✂️</p>
+                    <p>rock > scissors</p>
+                    <p>paper > rock</p>
+                    <p>scissors > paper</p>
+                </div>
+                <div class="difficult-box">
+                    <p>❤️DIFFICULT🎶</p>
+                    <p>rock > scissors & heart</p>
+                    <p>paper > rock & jazz hands</p>
+                    <p>scissors > paper & heart</p>
+                    <p>heart > paper & jazz hands</p>
+                    <p>jazz hands> paper & heart</p>
+                </div>
+            </section>
+            <section class="classic-weapon-list hidden">
+                <img class="rock" src="https://www.pngkey.com/png/detail/816-8162314_rock-paper-scissors-mickey-mouse-hand-drawing.png" alt="mickey-rock-hand-image">
+                <img class="paper" src="https://i.pinimg.com/236x/30/3a/af/303aafa322b574e46a2c3161eb52811c--mickey-mouse-birthday-mickey-party.jpg" alt="mickey-paper-hand-image">
+                <img class="scissors" src="https://www.nicepng.com/png/detail/816-8161961_paper-icon-mickey-mouse-hand-drawing.png" alt="mickey-scissors-hand-image">
+            </section>
+            <section class="difficult-weapon-list hidden">
+                <img class="rock" src="https://www.pngkey.com/png/detail/816-8162314_rock-paper-scissors-mickey-mouse-hand-drawing.png" alt="mickey-rock-hand-image">
+                <img class="paper" src="https://i.pinimg.com/236x/30/3a/af/303aafa322b574e46a2c3161eb52811c--mickey-mouse-birthday-mickey-party.jpg" alt="mickey-paper-hand-image">
+                <img class="scissors" src="https://www.nicepng.com/png/detail/816-8161961_paper-icon-mickey-mouse-hand-drawing.png" alt="mickey-scissors-hand-image">
+                <img class="love-hands" src="https://i.pinimg.com/736x/37/5d/87/375d87f471067b8b4ef01a1aa50b4c8b.jpg" alt="mickey-love-hands-image">
+                <img class="jazz-hands" src="https://i.etsystatic.com/27152142/r/il/2c1156/3007109493/il_500x500.3007109493_p4zb.jpg" alt="mickey-jazz-hands-image">
+            </section>
         </header>
         <aside class="right-bar">
+            <label class="score-label">
+                <p>Computer</p>
+                <p>Wins:</p>
+                <p class="win-counter" id="computer-counter">0</p>
+            </label>
         </aside>
     </main>  
 </body>
