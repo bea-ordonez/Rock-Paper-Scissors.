@@ -1,8 +1,9 @@
 * {
-    font-family: 'Arial bold';
+    font-family: 'Helvetica';
 }
 
 body {
+    margin:0;
     background-color: #4E8397
 }
 
@@ -54,6 +55,11 @@ main {
     color: white;
     display: flex;
     flex-direction: column;
+    
+}
+
+.score {
+    display: flex;
 }
 
 .game-change-btn {
@@ -76,32 +82,38 @@ main {
 }
 
 .difficult-box {
-    
     background-color: #845EC2;
     width: 20vw;
     padding: 5vh;
 }
 
-.rock,
-.paper,
-.scissors,
+.classic-rock,
+.classic-paper,
+.classic-scissors,
+.difficult-rock,
+.difficult-paper,
+.difficult-scissors,
 .jazz-hands,
 .love-hands {
     width: 100px;
     height: 100px;
 }
 
-.rock,
-.paper,
-.scissors,
+
+.classic-rock,
+.classic-paper,
+.classic-scissors,
+.difficult-rock,
+.difficult-paper,
+.difficult-scissors,
 .jazz-hands,
 .love-hands,
 .classic-box,
 .difficult-box,
 .game-change-btn {
     cursor: pointer;
-  }
+}
 
-  .hidden {
+.hidden {
     display: none;
 }
