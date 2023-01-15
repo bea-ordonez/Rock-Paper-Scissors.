@@ -87,6 +87,8 @@ main {
     padding: 5vh;
 }
 
+.fighter1,
+.fighter2,
 .classic-rock,
 .classic-paper,
 .classic-scissors,
@@ -98,7 +100,6 @@ main {
     width: 100px;
     height: 100px;
 }
-
 
 .classic-rock,
 .classic-paper,
