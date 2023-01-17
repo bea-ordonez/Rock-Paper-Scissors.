@@ -11,7 +11,8 @@ I have built a virtual version of a rock, paper, scissors game against the compu
 5. Open in your text editor
 
 ### Preview of App:
-<img width="1433" alt="Screen Shot 2023-01-15 at 6 38 24 PM" src="https://user-images.githubusercontent.com/116661385/212986298-e1f33e49-b0a4-490f-9237-0f716b537722.png">
+<img width="1440" alt="Screen Shot 2023-01-17 at 11 59 35 AM" src="https://user-images.githubusercontent.com/116661385/212987830-4933f259-a4fe-4ac3-8deb-7da928ad0234.png">
+
 
 ### Context:
 I am currently a student in the Turing Front End Program and this is my final solo project for Mod 1. I spent approximately 25-30 hours completing this project. 
