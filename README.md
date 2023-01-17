@@ -11,7 +11,7 @@ I have built a virtual version of a rock, paper, scissors game against the compu
 5. Open in your text editor
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+<img width="1433" alt="Screen Shot 2023-01-15 at 6 38 24 PM" src="https://user-images.githubusercontent.com/116661385/212986298-e1f33e49-b0a4-490f-9237-0f716b537722.png">
 
 ### Context:
 I am currently a student in the Turing Front End Program and this is my final solo project for Mod 1. I spent approximately 25-30 hours completing this project. 
@@ -28,6 +28,7 @@ I am currently a student in the Turing Front End Program and this is my final so
 - Javascript
 - HTML
 - CSS
+
 
 
 ### Wins:
