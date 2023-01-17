@@ -23,7 +23,10 @@ var loveHands = document.querySelector(".love-hands")
 var jazzHands = document.querySelector(".jazz-hands")
 var fighter1 = document.querySelector("#fighterOne")
 var fighter2 = document.querySelector("#fighterTwo")
+var humanToken = document.querySelector("#humanToken")
+var computerToken = document.querySelector("#computerToken")
 
+window.addEventListener('load', displayToken)
 changeGameBtn.addEventListener('click', changeGame)
 classicGame.addEventListener('click', loadClassicGameOptions)
 difficultGame.addEventListener('click', loadDifficultGameOptions)
@@ -34,7 +37,6 @@ classicActions.addEventListener('click', function(event) {
     showWinnerOutcome(event, game.computerChoice)
     updatePrompt()
     updateScore()
-    
 })
 difficultActions.addEventListener('click', function(event) {
     game.humanDifficultSelection(event)
@@ -83,8 +85,8 @@ function updatePrompt() {
         playerPrompt.innerText = "👩🏻Human wins this round!👩🏻"
       }
       else if (game.winner === "computer"){
-        playerPrompt.innerText = "💻Computer wins this round!💻"
-      }
+      playerPrompt.innerText = "💻Computer wins this round!💻"
+    }
 }
 
 function showWinnerOutcome(event, name) {
@@ -122,4 +124,9 @@ function getActionImgSrc(name) {
     } else if (name === "jazz hands") {
         return jazzHands.src
     }
+}
+
+function displayToken() {
+    humanToken.innerText = human.token
+    computerToken.innerText = computer.token
 }
