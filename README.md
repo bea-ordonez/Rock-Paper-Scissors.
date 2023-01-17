@@ -11,7 +11,7 @@ I have built a virtual version of a rock, paper, scissors game against the compu
 5. Open in your text editor
 
 ### Preview of App:
-![Screen Shot 2023-01-17 at 12 01 24 PM](https://user-images.githubusercontent.com/116661385/212988106-5cb44e86-4db6-48aa-a988-8641b5a4fd50.png)
+![Game Home Page](https://user-images.githubusercontent.com/116661385/212988106-5cb44e86-4db6-48aa-a988-8641b5a4fd50.png)
 
 
 
