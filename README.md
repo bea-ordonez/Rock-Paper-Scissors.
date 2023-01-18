@@ -4,7 +4,7 @@ Rock, Paper, Scissors.
 I have built a virtual version of a rock, paper, scissors game against the computer! There are two versions you can play, classic and difficult.
 
 ### Installation Instructions:
-Rock, Paper, Scissors is accessible through ![this](https://bea-ordonez.github.io/Rock-Paper-Scissors./) website, or locally through the following instructions:
+Rock, Paper, Scissors is accessible through [this](https://bea-ordonez.github.io/Rock-Paper-Scissors./) website, or locally through the following instructions:
 
 1. Go to this repo on Github
 2. Create New Fork
